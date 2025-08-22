@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patterns</title>
+</head>
+<body>
+    <center><h2>Patterns</h2>
+    <form action="submit.html" method="get">
+        <label for="adhar">AAdhar:</label>
+        <input type="text" pattern="[0-9]{12}" title="enter 12 digits" name="adhar" id="adhar" Autofocus placeholder="Enter the aadhar number" required><br><br>
+        <label for="bank">BankAccount Number:</label>
+        <input type="text" pattern="[0-9]{10}" title="enter 10 digits" name="bank" id="bank" placeholder="Enter the BankAccountnumber" required><br><br>
+        <label for="pancard">PanCard Number:</label>
+        <input type="text" pattern="[0-9A-z]{10}" title="enter 10 digits" name="pancard" id="pancard" placeholder="Enter the Pancardnumber" required><br><br>
+        <label for="number">Phone Number:</label>
+        <input type="text" pattern="[0-9]{10}" title="enter 10 digits" name="number" id="number"  placeholder="Enter the Phonenumber" required><br><br>
+        
+        <br><br><button>submit</button>
+        <button>Reset</button>
+    
+    </form>
+    </center>
+</body>
+</html>
